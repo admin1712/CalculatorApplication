@@ -35,6 +35,17 @@ public class Calculator {
     	System.out.println("Quotiont of Numbers : "+(a/b));
     	System.out.println("Remender of numbers : "+(a%b));
     }
+	 public void percentage()
+    {
+    	System.out.println("Enter two marks : ");
+		System.out.println("Enter two Total marks : ");
+		
+    	int marks=s.nextInt();
+    	int total=s.nextInt();
+    	System.out.println("percnetage  : "+((marks/total)*100));
+    	
+    }
+	
     
     public static void main(String[] args) {
     	int choice ;
@@ -45,7 +56,8 @@ public class Calculator {
 			System.out.println("2 . for subtraction");
 			System.out.println("3 . for multiplication");
 			System.out.println("4 . for division");
-			System.out.println("5 . for exit");
+			System.out.println("7 . for percentage");
+			System.out.println("6 .  for exit");
 			System.out.println("Enter choice for operations : ");
 			choice=s1.nextInt();
 		 switch(choice)
@@ -68,10 +80,14 @@ public class Calculator {
 			 System.out.println("__________________________________________________________________________");
 			 break;
 		 case 5:
+		     c.percentage();
+			  System.out.println("__________________________________________________________________________");
 			 break;
+		  case 6:
+		  break;
 			 
 		 }
 		
-		}while(choice !=5);
+		}while(choice !=6);
 	}
 }
