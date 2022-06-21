@@ -116,10 +116,14 @@ public class Calculator {
 			 break;
 		  case 6:
 		    c.power();
+			 System.out.println("__________________________________________________________________________");
+			 break;
 			
 		  break;
 		  case 7:
 		     c.sqrtroot();
+			  System.out.println("__________________________________________________________________________");
+			  
 			break;
 			 
 		 }
