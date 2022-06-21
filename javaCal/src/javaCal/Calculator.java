@@ -46,6 +46,36 @@ public class Calculator {
     	
     }
 	
+	 public void Power(int x,int y)
+  {
+	  
+	    	int res=1;
+	    	while(x!=0)
+	    	{
+	    		res=res * y;
+	    		--x;
+	    	}
+	    	System.out.println(" power of number = "+res);
+	    	
+	
+	  
+  }
+   public static double squareRoot()   
+	{  
+	  System.out.println("Enter square number  : ");
+	  Scanner s=new Scanner(System.in);
+	  int num=s.nextInt();
+		double t;  //temporary variable 
+		double sqrtroot=num/2;  
+		do   
+		{  
+			t=sqrtroot;  
+			sqrtroot=(t+(num/t))/2;  
+		}   
+		while((t-sqrtroot)!= 0);  
+			System.out.println(sqrtroot);  
+	}  
+	
     
     public static void main(String[] args) {
     	int choice ;
@@ -56,8 +86,9 @@ public class Calculator {
 			System.out.println("2 . for subtraction");
 			System.out.println("3 . for multiplication");
 			System.out.println("4 . for division");
-			System.out.println("7 . for percentage");
-			System.out.println("6 .  for exit");
+			System.out.println("5 . for percentage");
+			System.out.println("6 .  for power");
+			System.out.println("7 .  for Squareroot");
 			System.out.println("Enter choice for operations : ");
 			choice=s1.nextInt();
 		 switch(choice)
@@ -84,10 +115,15 @@ public class Calculator {
 			  System.out.println("__________________________________________________________________________");
 			 break;
 		  case 6:
+		    c.power();
+			
 		  break;
+		  case 7:
+		     c.sqrtroot();
+			break;
 			 
 		 }
 		
-		}while(choice !=6);
+		}while(choice !=8);
 	}
 }
