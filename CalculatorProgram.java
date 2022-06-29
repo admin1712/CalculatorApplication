@@ -2,7 +2,7 @@ package javaCal;
 
 import java.util.Scanner;
 
-public class Calculator {
+public class CalculatorProgram {
 	int a,b;
 	Scanner s=new Scanner(System.in);
     public void addition()
