@@ -21,7 +21,7 @@ public class CalculatorProgram {
     public static void subtraction()
     {
 	   int  a=10;
-	   int  b=20
+	   int  b=20;
 	    
       /*
     	System.out.println("Enter two numbers : ");
@@ -33,7 +33,7 @@ public class CalculatorProgram {
     public static void multiplication()
     {
 	     int  a=10;
-	   int  b=20
+	   int  b=20;
           /*
     	System.out.println("Enter two numbers : ");
     	a=s.nextInt();
@@ -43,7 +43,7 @@ public class CalculatorProgram {
     public static void division()
     {
 	     int  a=10;
-	   int  b=20
+	   int  b=20;
       /*
     	System.out.println("Enter two numbers : ");
     	a=s.nextInt();
