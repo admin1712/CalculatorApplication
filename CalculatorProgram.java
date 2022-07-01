@@ -6,7 +6,7 @@ public class CalculatorProgram {
 	int a=5;
            int b=10;
 	//Scanner s=new Scanner(System.in);
-    public void addition()
+    public  static void addition()
     {
     	//System.out.println("Enter two numbers : ");
     	//a=s.nextInt();
@@ -17,7 +17,7 @@ public class CalculatorProgram {
     	System.out.println("Addition of Numbers : "+(a+b));
     }
     
-    public void subtraction()
+    public static void subtraction()
     {
       /*
     	System.out.println("Enter two numbers : ");
@@ -26,7 +26,7 @@ public class CalculatorProgram {
        */
     	System.out.println("Subtraction of Numbers : "+(a-b));
     }
-    public void multiplication()
+    public static void multiplication()
     {
           /*
     	System.out.println("Enter two numbers : ");
@@ -34,7 +34,7 @@ public class CalculatorProgram {
     	b=s.nextInt();*/
     	System.out.println("Multiplication of Numbers : "+(a*b));
     }
-    public void division()
+    public static void division()
     {
       /*
     	System.out.println("Enter two numbers : ");
@@ -49,11 +49,11 @@ public class CalculatorProgram {
     
     public static void main(String[] args) {
     	int choice ;
-    	CalculatorProgram  c=new CalculatorProgram ();
-    	c.addition();
-         c.subtraction();
-         c.multiplication();
-         c.division();
+    	//CalculatorProgram  c=new CalculatorProgram ();
+        addition();
+         subtraction();
+         multiplication();
+         division();
          
 		
 	}
