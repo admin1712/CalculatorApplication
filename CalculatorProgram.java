@@ -1,6 +1,6 @@
-package javaCal;
 
-import java.util.Scanner;
+
+
 
 public class CalculatorProgram {
 	int a=5;
