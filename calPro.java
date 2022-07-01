@@ -2,7 +2,7 @@
 
 
 
-public class CalculatorProgram {
+public class calPro {
 	int a=5;
            int b=10;
 	//Scanner s=new Scanner(System.in);
@@ -49,7 +49,7 @@ public class CalculatorProgram {
     
     public static void main(String[] args) {
     	int choice ;
-    	CalculatorProgram  c=new CalculatorProgram ();
+    	calPro  c=new calPro ();
     	c.addition();
          c.subtraction();
          c.multiplication();
