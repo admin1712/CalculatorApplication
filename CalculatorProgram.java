@@ -9,7 +9,7 @@ public class CalculatorProgram {
     public  static void addition()
     {
 	     int  a=10;
-	   int  b=20
+	   int  b=20;
     	//System.out.println("Enter two numbers : ");
     	//a=s.nextInt();
     	//b=s.nextInt();
